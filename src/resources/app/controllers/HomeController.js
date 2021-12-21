@@ -1,4 +1,4 @@
-const express = require('express');
+const Product = require('../models/Product');
 
 class HomeController {
     index(req, res) {
